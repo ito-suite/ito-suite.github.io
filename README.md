@@ -8,8 +8,12 @@ test coverage
 
 Travis
 
-* https://travis-ci.org 
+* https://travis-ci.org/profile/ito-suite
 
 Code Climate
 
-*https://codeclimate.com/
+* https://codeclimate.com/
+
+Gitter
+
+ * https://gitter.im/ito-suite
