@@ -10,7 +10,17 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <title>ITO Suite by ito-suite</title>
+    <title>ITO Suite</title>
+	<style>
+		h3 {
+			color:#c6fedc;
+			text-shadow: 0px 0px 1px #000;
+			font-size:1.6em;
+			font-weight:800;
+			margin: 0 0 5px -18px;
+			letter-spacing: 1px;
+		}
+	</style>
   </head>
 
   <body>
@@ -18,41 +28,81 @@
       <div class="inner">
 
         <header>
-          <h1>ITO Suite</h1>
+   		  <img src="https://avatars1.githubusercontent.com/u/11889554?v=3&amp;s=80" alt="logo" style="float:left">
+          <h1 style="margin:9px 0 0 0"> &nbsp;Suite</h1>
         </header>
 
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/ito-suite" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
 
         <hr>
 
         <section id="main_content">
           <h3>
-<a id="welcome-to-ito-suite" class="anchor" href="#welcome-to-ito-suite" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to ITO Suite</h3>
+<a id="welcome-to-ito-suite" class="anchor" href="#welcome-to-ito-suite" aria-hidden="true"><span class="octicon octicon-link"></span></a>ITO Suite</h3>
 
-<p><img src="https://avatars1.githubusercontent.com/u/11889554?v=3&amp;s=80" alt="logo"></p>
 
-<p>ITO is a Media Management Framework in private development since 2013. It has been used simply as an archive, as a backend for Internet based art projects and is now in accelerated development for several AI enhanced photo mapping applications with archive backends.</p>
 
-<ul>
-<li>Linux (modern kernel)</li>
-<li>git, npm, bower, gulp</li>
-<li>node.js</li>
-<li>MongoDB</li>
-<li>RabbitMQ, socket.io</li>
-<li>Apache Solr Search</li>
-<li>CLI to:
--- graphicsmagick, ffmpeg, ps, clamav, etc.</li>
-</ul>
+<p>The ITO Suite is a Media Management Framework in development since 2013. It has been used simply as an archive, as a backend for Internet based art projects and is now being modularized for several AI enhanced photo mapping applications with archive backends:
 
+	<li>oz graffiti mapping project</li>
+	<li>leerstandsmelder.de</li>
+
+</p>
+
+
+<h3>
+Stack
+</h3>
 <p>
-<img src="/doc/ito-suite_flow.png" alt="flow">
+	<ul>
+		<li>Linux (modern kernel)</li>
+		<li>git, npm, bower, gulp</li>
+		<li>node.js</li>
+		<li>MongoDB</li>
+		<li>RabbitMQ, socket.io</li>
+		<li>Apache Solr Search</li>
+		<li>CLI to: graphicsmagick, ffmpeg, ps, clamav, etc.</li>
+		<li>Angular</li>
+	</ul>
+</p>
+<h3>
+Module List
+</h3>
+<p>
+	<li>Job Queue</li>
+	<li>Auth</li>
+	<li>ACL</li>
+	<li>API Client</li>
+	<li>Ingester</li>
+	<li>Message Queue</li>
+	<li>Storage</li>
+	<li>Dataviewer</li>
+	<li>Search</li>
+	<li>Map</li>
+	<li>Mobile Camera</li>
+	<li>Licensing</li>
+	<li>File Hashing</li>
+	<li>Antivirus</li>
+	<li>Transcoding</li>
+	<li>Image Processing</li>
+	<li>Ratings</li>
+	<li>Image Similarity</li>
+</p>
+
+
+
+
+<h3>
+Flow
+</h3>
+<p>
+<img src="./doc/ito-suite_flow.png" alt="flow">
 </p>
         </section>
 
         <footer>
-
+		    <section id="downloads" class="clearfix">
+		      <a href="https://github.com/ito-suite" id="view-on-github" class="button"><span>View on GitHub</span></a>
+		    </section>
         </footer>
 
         
